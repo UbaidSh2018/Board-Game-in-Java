@@ -8,7 +8,12 @@ public class Robot {
     Direction direction;
     GameBoard gameBoard;
 
-
+    /**
+     * Instantiate Robot with position and Direction parameters.
+     * @param x
+     * @param y
+     * @param dir
+     */
     public Robot(int x, int y, Direction dir) {
         X = x;
         Y = y;
@@ -16,14 +21,29 @@ public class Robot {
 
     }
 
+    /**
+     * Initiate board
+     * @param board
+     */
+    public void loadBoard(GameBoard board) {
+        gameBoard = board;
+    }
 
+    /**
+     *  Place the Robot on the Board with position and Direction parameters.
+     * @param x
+     * @param y
+     * @param dir
+     */
     public void place(int x, int y, Direction dir) {
         X = x;
         Y = y;
         direction = dir;
     }
 
-
+    /**
+     * Move command to increment X or Y co-ordinates until boundary along NSWE is reached.
+     */
     public void move() {
 
         switch (direction) {
@@ -53,6 +73,9 @@ public class Robot {
 
     }
 
+    /**
+     * Rotate Robot Direction to Left. This function checks the existing direction and switches it accordingly
+     */
     public void rotateLeft() {
 
         switch (direction) {
@@ -76,6 +99,9 @@ public class Robot {
 
     }
 
+    /**
+     * Rotate Robot Direction to Right. This function checks the existing direction and switches it accordingly
+     */
     public void rotateRight() {
         switch (direction) {
 
@@ -98,6 +124,10 @@ public class Robot {
 
     }
 
+    /**
+     * This function returns current position of Robot on the board.
+     * @return
+     */
     public String report() {
 
         String reportPosition = "Output:(X, Y , Direction)= " + "(" + X + "," + Y + "," + direction + ")";
