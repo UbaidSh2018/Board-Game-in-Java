@@ -5,6 +5,7 @@ public class GameBoard {
     private final int height; // board X axis : Height;
     private final int width; // board Y axis : Width;
 
+
     public GameBoard(int X, int Y) {
         height = X;
         width = Y;
@@ -38,7 +39,7 @@ public class GameBoard {
      * used to restrict movement of Robot towards East if it's greater than board
      * width.
      *
-     * @param X
+     * @param Y
      * @return
      */
     public boolean ValidYalongEast(int Y) {
@@ -49,7 +50,7 @@ public class GameBoard {
      * This function validates the position of Robot along Y axis(width). Aim: To be
      * used to restrict movement of Robot towards West if it's less than 0.
      *
-     * @param X
+     * @param Y
      * @return
      */
     public boolean ValidYalongWest(int Y) {
@@ -64,4 +65,6 @@ public class GameBoard {
     public int getBoardWidth() {
         return height;
     }
+
+
 }
