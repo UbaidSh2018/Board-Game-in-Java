@@ -8,9 +8,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Robot robot = new Robot(4,4, "North");
+        Direction direction;
+        Robot robot = new Robot(4,4, Direction.NORTH);
 
-        robot.place();
         robot.move();
         robot.rotateLeft();
         robot.rotateRight();
