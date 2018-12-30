@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da387164-5ea7-4a39-925a-722e1f4ca500" name="Default Changelist" comment="">
+    <list default="true" id="da387164-5ea7-4a39-925a-722e1f4ca500" name="Default Changelist" comment="Pushing:&#10; &#10;1. Testing Robot Commands and board functions from main.&#10;2. Manually passing commands to check functions.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ToyRobot/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToyRobot/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ToyRobot/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToyRobot/Robot.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,20 +19,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ToyRobot/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+            <state relative-caret-position="900">
+              <caret line="59" column="58" selection-start-line="59" selection-start-column="58" selection-end-line="59" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CommandFiles/Commands1.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="12" selection-start-column="12" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ToyRobot/Robot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="127" column="29" selection-start-line="127" selection-start-column="29" selection-end-line="127" selection-end-column="29" />
+            <state relative-caret-position="207">
+              <caret line="132" column="106" lean-forward="true" selection-start-line="132" selection-start-column="106" selection-end-line="132" selection-end-column="106" />
               <folding>
                 <element signature="e#330#331#0" expanded="true" />
                 <element signature="e#363#364#0" expanded="true" />
@@ -97,8 +108,8 @@
         <option value="$PROJECT_DIR$/src/ToyRobot/GameBoard.java" />
         <option value="$PROJECT_DIR$/TestToyRobot/ToyRobot/GameBoardTest.java" />
         <option value="$PROJECT_DIR$/TestToyRobot/ToyRobot/MainTest.java" />
-        <option value="$PROJECT_DIR$/src/ToyRobot/Main.java" />
         <option value="$PROJECT_DIR$/src/ToyRobot/Robot.java" />
+        <option value="$PROJECT_DIR$/src/ToyRobot/Main.java" />
       </list>
     </option>
   </component>
@@ -108,7 +119,9 @@
     <option name="width" value="995" />
     <option name="height" value="995" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -146,6 +159,11 @@
             <path>
               <item name="ToyRobot" type="b2602c69:ProjectViewProjectNode" />
               <item name="ToyRobot" type="462c0819:PsiDirectoryNode" />
+              <item name="CommandFiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ToyRobot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ToyRobot" type="462c0819:PsiDirectoryNode" />
               <item name="Docs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -163,7 +181,7 @@
     <property name="Repository.Attach.Sources" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546076792025" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546158535136" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -181,8 +199,8 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ubaid\IntelliJ Workspace\ToyRobot\src\ToyRobot" />
       <recent name="C:\Users\ubaid\IntelliJ Workspace\ToyRobot\CommandFiles" />
+      <recent name="C:\Users\ubaid\IntelliJ Workspace\ToyRobot\src\ToyRobot" />
       <recent name="C:\Users\ubaid\IntelliJ Workspace\ToyRobot\Docs" />
     </key>
   </component>
@@ -242,7 +260,7 @@
       <workItem from="1545627149273" duration="6622000" />
       <workItem from="1545879112910" duration="1183000" />
       <workItem from="1545880867780" duration="7012000" />
-      <workItem from="1546061460046" duration="4619000" />
+      <workItem from="1546061460046" duration="10425000" />
     </task>
     <task id="LOCAL-00001" summary="Pushing:&#10; &#10;1. Main class&#10;2. Robot class">
       <created>1545986447970</created>
@@ -279,7 +297,21 @@
       <option name="project" value="LOCAL" />
       <updated>1546075729112</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Pushing:&#10; &#10;1. Robot class with initiate board function and docs">
+      <created>1546076839849</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1546076839849</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Pushing:&#10; &#10;1. Testing Robot Commands and board functions from main.&#10;2. Manually passing commands to check functions.">
+      <created>1546077199330</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1546077199330</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -297,7 +329,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19436000" />
+    <option name="totallyTimeSpent" value="25242000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -343,7 +375,9 @@
     <MESSAGE value="Pushing:&#10; &#10;1. Main class&#10;2. Robot class" />
     <MESSAGE value="Pushing:&#10; &#10;1. Enum for directions&#10;2.0 Robot class with complete set of commands&#10;2.1 Robot class with enum implementation&#10;3. board class to validate movements of X,Y along NSWE" />
     <MESSAGE value="Pushing:&#10; &#10;1. Unit test for Gameboard" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pushing:&#10; &#10;1. Unit test for Gameboard" />
+    <MESSAGE value="Pushing:&#10; &#10;1. Robot class with initiate board function and docs" />
+    <MESSAGE value="Pushing:&#10; &#10;1. Testing Robot Commands and board functions from main.&#10;2. Manually passing commands to check functions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Pushing:&#10; &#10;1. Testing Robot Commands and board functions from main.&#10;2. Manually passing commands to check functions." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/description.html">
@@ -376,7 +410,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ToyRobot/Robot$1.class" />
-    <entry file="file://$PROJECT_DIR$/CommandFiles/TestCase_04_EmptyInputFile.txt" />
     <entry file="file://$PROJECT_DIR$/CommandFiles/TestCase_07_DuplicatePLACECommands.txt" />
     <entry file="file://$PROJECT_DIR$/CommandFiles/TestCase_05_PLACECommandMissing.txt" />
     <entry file="file://$PROJECT_DIR$/CommandFiles/TestCase_06_InvalidPLACECommand.txt" />
@@ -387,7 +420,6 @@
     <entry file="file://$PROJECT_DIR$/CommandFiles/TestCase_12_UnsolicitedCommand.txt" />
     <entry file="file://$PROJECT_DIR$/CommandFiles/TestCase_13_a.txt" />
     <entry file="file://$PROJECT_DIR$/CommandFiles/TestCase_14_b.txt" />
-    <entry file="file://$PROJECT_DIR$/CommandFiles/TestCase_15_c.txt" />
     <entry file="file://$PROJECT_DIR$/CommandFiles/TestCase_17_MoveSouthOutbound.txt" />
     <entry file="file://$PROJECT_DIR$/CommandFiles/TestCase_18_MoveWestOutbound.txt" />
     <entry file="file://$PROJECT_DIR$/CommandFiles/TestCase_16_MoveNorthOutbound.txt" />
@@ -406,13 +438,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ToyRobot/GameBoard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestToyRobot/ToyRobot/GameBoardTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -427,20 +452,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ToyRobot/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/ToyRobot/GameBoard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        <state relative-caret-position="1008">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommandFiles/TestCase_04_EmptyInputFile.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="934" column="16" selection-start-line="934" selection-start-column="16" selection-end-line="934" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ToyRobot/Robot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="127" column="29" selection-start-line="127" selection-start-column="29" selection-end-line="127" selection-end-column="29" />
+        <state relative-caret-position="207">
+          <caret line="132" column="106" lean-forward="true" selection-start-line="132" selection-start-column="106" selection-end-line="132" selection-end-column="106" />
           <folding>
             <element signature="e#330#331#0" expanded="true" />
             <element signature="e#363#364#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommandFiles/Commands1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ToyRobot/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="59" column="58" selection-start-line="59" selection-start-column="58" selection-end-line="59" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
