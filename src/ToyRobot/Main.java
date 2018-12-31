@@ -21,7 +21,7 @@ public class Main {
         GameBoard board = new GameBoard(X, Y);
         Robot robot = null;
 
-        File file = new File("CommandFiles/WestBorderCheck.txt");
+        File file = new File("CommandFiles/InvalidPlace.txt");
 
         if(file.exists()){
             System.out.println("file exists");
@@ -30,6 +30,7 @@ public class Main {
                 fileReader = new FileReader(file);
                 BufferedReader bufferedReader = new BufferedReader(fileReader);
                 String singleCommandLine;
+                int fileLines = 0;
                 System.out.println("file buffered");
 
                     try {
@@ -73,7 +74,19 @@ public class Main {
                                }
                             }
 
+                            fileLines++;
+                            System.out.println("File Lines = " + fileLines);
                         }
+
+                        //....Check for Empty File....//
+                        if (fileLines == 0) {
+                            System.out.println(" : is an Empty File");
+                        }
+                        //....Check for Invalid Command File if it fails to instantiate RobotCommands Class....//
+                        if (robot == null) {
+                                System.out.println(" : is an Invalid Command File");
+                            }
+
 
                         bufferedReader.close();
 
@@ -91,7 +104,7 @@ public class Main {
 
 
         } else{
-            System.out.println("Invalid File");
+            System.out.println("Invalid File Name: Try Again");
         }
 
     }
