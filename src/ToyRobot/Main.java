@@ -6,22 +6,27 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class Main {
 
-
+    public static int BOARD_HEIGHT = 4;
+    public static int BOARD_WIDTH = 4;
 
     public static void main(String[] args) {
 
-        int X = 4;
-        int Y = 4;
-        //  Direction direction;
-        GameBoard board = new GameBoard(X, Y);
+        GameBoard board = new GameBoard(BOARD_HEIGHT, BOARD_WIDTH);
         Robot robot = null;
+        Direction direction;
 
-        File file = new File("CommandFiles/InvalidPlace.txt");
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter File Name: ");
+        String filePassed = sc.nextLine();
+        File file = new File(filePassed);
+
+      //  File file = new File("CommandFiles/InvalidPlace.txt");
 
         if(file.exists()){
             System.out.println("file exists");
@@ -45,7 +50,7 @@ public class Main {
                                     System.out.println("valid place command");
                                     int x = Integer.parseInt(getParams[0]);
                                     int y = Integer.parseInt(getParams[1]);
-                                    Direction direction = Direction.valueOf(getParams[2]);
+                                    direction = Direction.valueOf(getParams[2]);
 
                                     if ((x >= 0 && x <= board.getBoardHeight() &&
                                             (y >= 0 && y <= board.getBoardWidth()))) {
@@ -104,7 +109,7 @@ public class Main {
 
 
         } else{
-            System.out.println("Invalid File Name: Try Again");
+            System.out.println("Invalid File Name or Path: Try Again");
         }
 
     }

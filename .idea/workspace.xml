@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/ToyRobot/Main.java" line="28" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="da387164-5ea7-4a39-925a-722e1f4ca500" name="Default Changelist" comment="Pushing:&#10; &#10;1. Testing Robot Commands and board functions from main.&#10;2. Manually passing commands to check functions.">
+    <list default="true" id="da387164-5ea7-4a39-925a-722e1f4ca500" name="Default Changelist" comment="Pushing:&#10; &#10;1. Added files to command folder to test commands and boundary conditions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ToyRobot/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToyRobot/Main.java" afterDir="false" />
     </list>
@@ -22,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ToyRobot/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="59" column="58" selection-start-line="59" selection-start-column="58" selection-end-line="59" selection-end-column="58" />
+            <state relative-caret-position="266">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -32,50 +35,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CommandFiles/Commands1.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ToyRobot/Robot.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="132" column="106" lean-forward="true" selection-start-line="132" selection-start-column="106" selection-end-line="132" selection-end-column="106" />
-              <folding>
-                <element signature="e#330#331#0" expanded="true" />
-                <element signature="e#363#364#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ToyRobot/Direction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ToyRobot/GameBoard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1008">
-              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestToyRobot/ToyRobot/GameBoardTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="49" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="49" />
+            <state>
+              <caret line="68" selection-start-line="68" selection-end-line="68" />
             </state>
           </provider>
         </entry>
@@ -109,6 +72,19 @@
         <option value="$PROJECT_DIR$/TestToyRobot/ToyRobot/GameBoardTest.java" />
         <option value="$PROJECT_DIR$/TestToyRobot/ToyRobot/MainTest.java" />
         <option value="$PROJECT_DIR$/src/ToyRobot/Robot.java" />
+        <option value="$PROJECT_DIR$/CommandFiles/RightRotateCommand.txt" />
+        <option value="$PROJECT_DIR$/CommandFiles/NorthBorderCheck.txt" />
+        <option value="$PROJECT_DIR$/CommandFiles/WestBorderCheck.txt" />
+        <option value="$PROJECT_DIR$/CommandFiles/SouthBorderCheck.txt" />
+        <option value="$PROJECT_DIR$/CommandFiles/EastBorderCheck.txt" />
+        <option value="$PROJECT_DIR$/CommandFiles/InvalidMovementCommands.txt" />
+        <option value="$PROJECT_DIR$/CommandFiles/MultiplePlaceCommands.txt" />
+        <option value="$PROJECT_DIR$/CommandFiles/west.txt" />
+        <option value="$PROJECT_DIR$/CommandFiles/ValidComboCommands.txt" />
+        <option value="$PROJECT_DIR$/CommandFiles/FirstCommandNotPlace.txt" />
+        <option value="$PROJECT_DIR$/CommandFiles/InvalidPlace.txt" />
+        <option value="$PROJECT_DIR$/CommandFiles/InvalidReportCommand.txt" />
+        <option value="$PROJECT_DIR$/CommandFiles/EmptyFile.txt" />
         <option value="$PROJECT_DIR$/src/ToyRobot/Main.java" />
       </list>
     </option>
@@ -127,6 +103,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,7 +147,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -181,7 +157,7 @@
     <property name="Repository.Attach.Sources" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546158539388" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546235311180" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -189,7 +165,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -260,7 +236,8 @@
       <workItem from="1545627149273" duration="6622000" />
       <workItem from="1545879112910" duration="1183000" />
       <workItem from="1545880867780" duration="7012000" />
-      <workItem from="1546061460046" duration="10425000" />
+      <workItem from="1546061460046" duration="16959000" />
+      <workItem from="1546233759053" duration="1026000" />
     </task>
     <task id="LOCAL-00001" summary="Pushing:&#10; &#10;1. Main class&#10;2. Robot class">
       <created>1545986447970</created>
@@ -311,7 +288,28 @@
       <option name="project" value="LOCAL" />
       <updated>1546077199330</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Pushing:&#10; &#10;1. Added Command file folder to test reading commands from a file&#10;2. Added functionality to read from a file using buffer reader.">
+      <created>1546158637829</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1546158637829</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Pushing:&#10; &#10;1. Added Command file folder to test reading commands from a file&#10;2. Added functionality to read from a file using buffer reader.">
+      <created>1546158659572</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1546158659572</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Pushing:&#10; &#10;1. Added files to command folder to test commands and boundary conditions">
+      <created>1546221380332</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1546221380332</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -329,13 +327,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25242000" />
+    <option name="totallyTimeSpent" value="32802000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25973153" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26308724" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -356,7 +353,6 @@
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.3286119" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3295302" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -366,6 +362,7 @@
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3295302" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,7 +374,9 @@
     <MESSAGE value="Pushing:&#10; &#10;1. Unit test for Gameboard" />
     <MESSAGE value="Pushing:&#10; &#10;1. Robot class with initiate board function and docs" />
     <MESSAGE value="Pushing:&#10; &#10;1. Testing Robot Commands and board functions from main.&#10;2. Manually passing commands to check functions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Pushing:&#10; &#10;1. Testing Robot Commands and board functions from main.&#10;2. Manually passing commands to check functions." />
+    <MESSAGE value="Pushing:&#10; &#10;1. Added Command file folder to test reading commands from a file&#10;2. Added functionality to read from a file using buffer reader." />
+    <MESSAGE value="Pushing:&#10; &#10;1. Added files to command folder to test commands and boundary conditions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pushing:&#10; &#10;1. Added files to command folder to test commands and boundary conditions" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/description.html">
@@ -410,19 +409,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ToyRobot/Robot$1.class" />
-    <entry file="file://$PROJECT_DIR$/CommandFiles/TestCase_07_DuplicatePLACECommands.txt" />
-    <entry file="file://$PROJECT_DIR$/CommandFiles/TestCase_05_PLACECommandMissing.txt" />
-    <entry file="file://$PROJECT_DIR$/CommandFiles/TestCase_06_InvalidPLACECommand.txt" />
-    <entry file="file://$PROJECT_DIR$/CommandFiles/TestCase_08_PLACEOutsideOfTable.txt" />
-    <entry file="file://$PROJECT_DIR$/CommandFiles/TestCase_09_InvalidMOVE-LEFT-RIGHTCommand.txt" />
-    <entry file="file://$PROJECT_DIR$/CommandFiles/TestCase_10_REPORTCommandMissing.txt" />
-    <entry file="file://$PROJECT_DIR$/CommandFiles/TestCase_11_InvalidREPORTCommand.txt" />
-    <entry file="file://$PROJECT_DIR$/CommandFiles/TestCase_12_UnsolicitedCommand.txt" />
-    <entry file="file://$PROJECT_DIR$/CommandFiles/TestCase_13_a.txt" />
-    <entry file="file://$PROJECT_DIR$/CommandFiles/TestCase_14_b.txt" />
-    <entry file="file://$PROJECT_DIR$/CommandFiles/TestCase_17_MoveSouthOutbound.txt" />
-    <entry file="file://$PROJECT_DIR$/CommandFiles/TestCase_18_MoveWestOutbound.txt" />
-    <entry file="file://$PROJECT_DIR$/CommandFiles/TestCase_16_MoveNorthOutbound.txt" />
     <entry file="file://$PROJECT_DIR$/src/ToyRobot/run.java" />
     <entry file="file://$PROJECT_DIR$/src/ToyRobot/Direction.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -431,13 +417,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestToyRobot/ToyRobot/RobotTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/TestToyRobot/ToyRobot/RobotTest.java" />
     <entry file="file://$PROJECT_DIR$/TestToyRobot/ToyRobot/GameBoardTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -445,23 +425,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestToyRobot/ToyRobot/MainTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ToyRobot/GameBoard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CommandFiles/TestCase_04_EmptyInputFile.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/TestToyRobot/ToyRobot/MainTest.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/function/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
@@ -476,9 +440,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CommandFiles/TestCase_10_REPORTCommandMissing.txt" />
+    <entry file="file://$PROJECT_DIR$/CommandFiles/TestCase_12_UnsolicitedCommand.txt" />
+    <entry file="file://$PROJECT_DIR$/CommandFiles/TestCase_13_a.txt" />
+    <entry file="file://$PROJECT_DIR$/CommandFiles/BlankFile.txt" />
+    <entry file="file://$PROJECT_DIR$/CommandFiles/TestCase_15_c.txt" />
     <entry file="file://$PROJECT_DIR$/src/ToyRobot/Robot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
+        <state relative-caret-position="1611">
           <caret line="132" column="106" lean-forward="true" selection-start-line="132" selection-start-column="106" selection-end-line="132" selection-end-column="106" />
           <folding>
             <element signature="e#330#331#0" expanded="true" />
@@ -487,20 +456,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CommandFiles/Commands1.txt">
+    <entry file="file://$PROJECT_DIR$/CommandFiles/NoPlaceCommand.txt" />
+    <entry file="file://$PROJECT_DIR$/CommandFiles/PlaceOutofBounds.txt" />
+    <entry file="file://$PROJECT_DIR$/CommandFiles/west.txt" />
+    <entry file="file://$PROJECT_DIR$/CommandFiles/EastBorderCheck.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommandFiles/FirstCommandNotPlace.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommandFiles/InvalidReportCommand.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommandFiles/LeftRotateCommand.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommandFiles/MultiplePlaceCommands.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommandFiles/NorthBorderCheck.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommandFiles/RightRotateCommand.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommandFiles/SouthBorderCheck.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommandFiles/ValidComboCommands.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommandFiles/WestBorderCheck.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommandFiles/InvalidMovementCommands.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommandFiles/EmptyFile.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommandFiles/InvalidPlace.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ToyRobot/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="59" column="58" selection-start-line="59" selection-start-column="58" selection-end-line="59" selection-end-column="58" />
+        <state relative-caret-position="266">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ToyRobot/GameBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
         </state>
       </provider>
     </entry>
