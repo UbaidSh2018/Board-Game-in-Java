@@ -87,6 +87,7 @@ public class Main {
                         }
 
                         bufferedReader.close();
+                        fileReader.close();
 
                     } catch (IOException e) {
                         System.out.println("IO Exception Thrown");
