@@ -57,7 +57,6 @@ public class GameBoard {
         return (Y > 0);
     }
 
-
     public int getBoardHeight() {
         return height;
     }

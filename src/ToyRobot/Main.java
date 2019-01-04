@@ -13,69 +13,68 @@ public class Main {
         Robot robot = null;
         File file;
 
-   /*     Scanner sc = new Scanner(System.in);
+   /*   Scanner sc = new Scanner(System.in);
         System.out.println("Enter File Name: ");
         String filePassed = sc.nextLine();
         File file = new File(filePassed);*/
 
-        //  File file = new File("CommandFiles/InvalidPlace.txt");
         if (0 < args.length) {
             file = new File(args[0]);
-            System.out.println("file passed in args");
+         //   System.out.println("file passed in args");
             if (file.exists()) {
-                System.out.println("file exists");
+           //     System.out.println("file exists");
                 FileReader fileReader;
                 try {
                     fileReader = new FileReader(file);
                     BufferedReader bufferedReader = new BufferedReader(fileReader);
                     String singleCommandLine;
                     int fileLines = 0;
-                    System.out.println("file buffered");
+               //     System.out.println("file buffered");
 
                     try {
                         while ((singleCommandLine = bufferedReader.readLine()) != null) {
-                            System.out.println("reading line");
+                         //   System.out.println("reading line");
                             if (singleCommandLine.toUpperCase().startsWith("PLACE")) {
-                                System.out.println("place command found");
+                              //  System.out.println("place command found");
                                 String[] firstLine = singleCommandLine.split(" ");
                                 String[] getParams = firstLine[1].split(",");
 
                                 if (getParams.length == 3) {
-                                    System.out.println("valid place command");
+                                //    System.out.println("valid place command");
                                     int x = Integer.parseInt(getParams[0]);
                                     int y = Integer.parseInt(getParams[1]);
                                     Direction direction = Direction.valueOf(getParams[2]);
 
                                     if ((x >= 0 && x <= board.getBoardHeight() &&
                                             (y >= 0 && y <= board.getBoardWidth()))) {
-                                        System.out.println("fetching params from place");
+                                   //     System.out.println("fetching params from place");
                                         robot = new Robot(x, y, direction);
                                         robot.loadBoard(board);
                                     }
                                 } else
-                                    System.out.println("PLACE Command Invalid. Correct Format \"PLACE X,Y,Direction\" ");
+                                    System.out.println("PLACE Command Invalid. Correct Format PLACE X,Y,Direction");
 
                             }
 
                             if (robot != null) {
-                                System.out.println("Robot object not null");
+                             //   System.out.println("Robot object not null");
                                 if (singleCommandLine.equalsIgnoreCase("MOVE")) {
                                     robot.move();
-                                    System.out.println("move executed");
+                               //     System.out.println("move executed");
                                 } else if (singleCommandLine.equalsIgnoreCase("RIGHT")) {
                                     robot.rotateRight();
-                                    System.out.println("rotate right executed");
+                              //      System.out.println("rotate right executed");
                                 } else if (singleCommandLine.equalsIgnoreCase("LEFT")) {
                                     robot.rotateLeft();
-                                    System.out.println("rotate left executed");
+                             //       System.out.println("rotate left executed");
                                 } else if (singleCommandLine.equalsIgnoreCase("REPORT")) {
                                     System.out.println(robot.report());
-                                    System.out.println("report executed");
+                               //     System.out.println("report executed");
                                 }
                             }
 
                             fileLines++;
-                            System.out.println("File Lines = " + fileLines);
+                         //   System.out.println("File Lines = " + fileLines);
                         }
 
                         //....Check for Empty File....//
@@ -94,9 +93,8 @@ public class Main {
                         e.printStackTrace();
                     }
 
-
                 } catch (FileNotFoundException e) {
-                    System.out.println(args[0] +" File Not Found Exception Thrown");
+                    System.out.println(args[0] + " File Not Found Exception Thrown");
                     e.printStackTrace();
 
                 }
