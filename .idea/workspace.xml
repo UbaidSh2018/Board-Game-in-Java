@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="da387164-5ea7-4a39-925a-722e1f4ca500" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestToyRobot/ToyRobot/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestToyRobot/ToyRobot/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ToyRobot/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToyRobot/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestToyRobot/ToyRobot/MainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="325" column="35" selection-start-line="325" selection-start-column="35" selection-end-line="325" selection-end-column="35" />
+            <state relative-caret-position="5724">
+              <caret line="330" column="1" lean-forward="true" selection-start-line="330" selection-start-column="1" selection-end-line="330" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,34 +39,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CommandFiles/C14_RobotOutofBoard.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CommandFiles/C13_WestBorderCheck.txt">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TestToyRobot/ToyRobot/RunAllTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CommandFiles/C9_MultiplePlaceCommands.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="14" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CommandFiles/C5_FirstCommandNotPlace.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            <state relative-caret-position="144">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -120,6 +98,7 @@
         <option value="$PROJECT_DIR$/CommandFiles/C13_WestBorderCheck.txt" />
         <option value="$PROJECT_DIR$/src/ToyRobot/Main.java" />
         <option value="$PROJECT_DIR$/TestToyRobot/ToyRobot/MainTest.java" />
+        <option value="$PROJECT_DIR$/TestToyRobot/ToyRobot/RunAllTests.java" />
       </list>
     </option>
   </component>
@@ -170,6 +149,11 @@
               <item name="ToyRobot" type="462c0819:PsiDirectoryNode" />
               <item name="CommandFiles" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ToyRobot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ToyRobot" type="462c0819:PsiDirectoryNode" />
+              <item name="Docs" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -185,10 +169,10 @@
     <property name="Repository.Attach.Sources" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546591614507" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546592888236" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Docs" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -220,7 +204,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MainTest">
+  <component name="RunManager" selected="JUnit.RunAllTests">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
       <option name="MAIN_CLASS_NAME" value="ToyRobot.Main" />
@@ -278,22 +262,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.testNoArgumentsPassed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ToyRobot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ToyRobot.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ToyRobot" />
-      <option name="MAIN_CLASS_NAME" value="ToyRobot.MainTest" />
-      <option name="METHOD_NAME" value="testNoArgumentsPassed" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MainTest.testRobotOutOfBoard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ToyRobot" />
       <extension name="coverage">
@@ -310,21 +278,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RunAllTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ToyRobot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ToyRobot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ToyRobot" />
+      <option name="MAIN_CLASS_NAME" value="ToyRobot.RunAllTests" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.MainTest.testNoArgumentsPassed" />
       <item itemvalue="JUnit.MainTest.testMultipleArgumentsPassed" />
       <item itemvalue="JUnit.MainTest" />
       <item itemvalue="JUnit.MainTest.testMainEmptyFileInput" />
       <item itemvalue="JUnit.MainTest.testRobotOutOfBoard" />
+      <item itemvalue="JUnit.RunAllTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RunAllTests" />
         <item itemvalue="JUnit.MainTest" />
         <item itemvalue="JUnit.MainTest.testRobotOutOfBoard" />
         <item itemvalue="JUnit.MainTest.testMainEmptyFileInput" />
         <item itemvalue="JUnit.MainTest.testMultipleArgumentsPassed" />
-        <item itemvalue="JUnit.MainTest.testNoArgumentsPassed" />
       </list>
     </recent_temporary>
   </component>
@@ -344,7 +326,7 @@
       <workItem from="1546061460046" duration="16959000" />
       <workItem from="1546233759053" duration="1945000" />
       <workItem from="1546237933643" duration="645000" />
-      <workItem from="1546404564813" duration="19033000" />
+      <workItem from="1546404564813" duration="20324000" />
     </task>
     <task id="LOCAL-00001" summary="Pushing:&#10; &#10;1. Main class&#10;2. Robot class">
       <created>1545986447970</created>
@@ -458,22 +440,17 @@
       <option name="project" value="LOCAL" />
       <updated>1546588496659</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Pushing:&#10; &#10;1. Added Tests for Main function covering arguments passed and robot initial placement">
+      <created>1546591679897</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1546591679897</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainTest_testMainEmptyFileInput - 2019.01.04 at 19h 37m 41s.xml">
-      <configuration name="MainTest.testMainEmptyFileInput" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainTest_testMainEmptyFileInput - 2019.01.04 at 19h 37m 59s.xml">
-      <configuration name="MainTest.testMainEmptyFileInput" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainTest - 2019.01.04 at 19h 38m 07s.xml">
-      <configuration name="MainTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainTest - 2019.01.04 at 19h 39m 57s.xml">
-      <configuration name="MainTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MainTest - 2019.01.04 at 19h 40m 27s.xml">
       <configuration name="MainTest" configurationId="JUnit" />
     </history-entry>
@@ -492,13 +469,24 @@
     <history-entry file="MainTest_testRobotOutOfBoard - 2019.01.04 at 19h 46m 24s.xml">
       <configuration name="MainTest.testRobotOutOfBoard" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MainTest_testRobotOutOfBoard - 2019.01.04 at 19h 46m 43s.xml">
+      <configuration name="MainTest.testRobotOutOfBoard" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest - 2019.01.04 at 19h 46m 56s.xml">
+      <configuration name="MainTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest - 2019.01.04 at 20h 05m 45s.xml">
+      <configuration name="MainTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunAllTests - 2019.01.04 at 20h 07m 46s.xml">
+      <configuration name="RunAllTests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53399000" />
+    <option name="totallyTimeSpent" value="54690000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20939597" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -549,7 +537,8 @@
     <MESSAGE value="Pushing:&#10; &#10;1. Added Tests for Main function" />
     <MESSAGE value="Pushing:&#10; &#10;1. Added Tests for Main function till Invalid report command file" />
     <MESSAGE value="Pushing:&#10; &#10;1. Added Tests for Main function till Western Border check command file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pushing:&#10; &#10;1. Added Tests for Main function till Western Border check command file" />
+    <MESSAGE value="Pushing:&#10; &#10;1. Added Tests for Main function covering arguments passed and robot initial placement" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pushing:&#10; &#10;1. Added Tests for Main function covering arguments passed and robot initial placement" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/description.html">
@@ -760,10 +749,123 @@
         </state>
       </provider>
     </entry>
+    <entry file="uml://JAVA/ToyRobot">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>ToyRobot</OriginalElement>
+          <nodes>
+            <node x="0.0" y="45.5">ToyRobot.Direction</node>
+            <node x="252.0" y="347.0">ToyRobot.GameBoardTest</node>
+            <node x="12.0" y="269.0">ToyRobot.Robot</node>
+            <node x="226.6111111111111" y="0.0">ToyRobot.GameBoard</node>
+            <node x="92.5" y="593.0">ToyRobot.Main</node>
+            <node x="43.5" y="740.0">ToyRobot.MainTest</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="ToyRobot.Main" target="ToyRobot.GameBoard">
+              <point x="67.6" y="-48.5" />
+              <point x="244.6" y="573.0" />
+              <point x="490.5" y="573.0" />
+              <point x="490.5" y="229.0" />
+              <point x="437.4444444444444" y="229.0" />
+              <point x="95.83333333333331" y="104.5" />
+            </edge>
+            <edge source="ToyRobot.Main" target="ToyRobot.Robot">
+              <point x="-33.80000000000001" y="-48.5" />
+              <point x="143.2" y="563.0" />
+              <point x="67.0" y="563.0" />
+              <point x="-55.0" y="137.0" />
+            </edge>
+            <edge source="ToyRobot.Main" target="ToyRobot.Direction">
+              <point x="-67.6" y="-48.5" />
+              <point x="109.4" y="573.0" />
+              <point x="1.5" y="573.0" />
+              <point x="1.5" y="249.0" />
+              <point x="16.0" y="249.0" />
+              <point x="-32.0" y="59.0" />
+            </edge>
+            <edge source="ToyRobot.MainTest" target="ToyRobot.Main">
+              <point x="0.0" y="-180.0" />
+              <point x="0.0" y="48.5" />
+            </edge>
+            <edge source="ToyRobot.Robot" target="ToyRobot.GameBoard">
+              <point x="27.5" y="-137.0" />
+              <point x="149.5" y="239.0" />
+              <point x="245.77777777777774" y="239.0" />
+              <point x="-95.83333333333334" y="104.5" />
+            </edge>
+            <edge source="ToyRobot.GameBoardTest" target="ToyRobot.GameBoard">
+              <point x="-54.25" y="-59.0" />
+              <point x="306.25" y="249.0" />
+              <point x="322.4444444444444" y="249.0" />
+              <point x="-19.166666666666686" y="104.5" />
+            </edge>
+            <edge source="ToyRobot.Robot" target="ToyRobot.Direction">
+              <point x="-82.5" y="-137.0" />
+              <point x="39.5" y="249.0" />
+              <point x="48.0" y="249.0" />
+              <point x="0.0" y="59.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-223.0" y="210.0" />
+          <SelectedNodes>
+            <node>ToyRobot.Direction</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+            <Category>Constructors</Category>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/ToyRobot.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>ToyRobot</OriginalElement>
+          <nodes>
+            <node x="" y="">ToyRobot.Direction</node>
+            <node x="" y="">ToyRobot.GameBoardTest</node>
+            <node x="" y="">ToyRobot.Robot</node>
+            <node x="" y="">ToyRobot.GameBoard</node>
+            <node x="" y="">ToyRobot.Main</node>
+            <node x="" y="">ToyRobot.MainTest</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="126.0" y="180.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TestToyRobot/ToyRobot/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="325" column="35" selection-start-line="325" selection-start-column="35" selection-end-line="325" selection-end-column="35" />
+        <state relative-caret-position="5724">
+          <caret line="330" column="1" lean-forward="true" selection-start-line="330" selection-start-column="1" selection-end-line="330" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestToyRobot/ToyRobot/RunAllTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
