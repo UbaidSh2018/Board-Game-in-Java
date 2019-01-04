@@ -13,6 +13,7 @@ import static org.junit.Assert.*;
 public class MainTest {
 
 
+
     @Test
     public void testMainEmptyFileInput() throws IOException {
         String[] args = {"CommandFiles/C1_EmptyFile.txt"};
