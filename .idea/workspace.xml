@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="da387164-5ea7-4a39-925a-722e1f4ca500" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommandFiles/C4_InvalidReportCommand.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CommandFiles/C4_InvalidReportCommand.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommandFiles/C11_SouthBorderCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CommandFiles/C11_SouthBorderCheck.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommandFiles/C13_WestBorderCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CommandFiles/C13_WestBorderCheck.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommandFiles/C5_FirstCommandNotPlace.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CommandFiles/C5_FirstCommandNotPlace.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestToyRobot/ToyRobot/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestToyRobot/ToyRobot/MainTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ToyRobot/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="972">
-              <caret line="54" column="113" selection-start-line="54" selection-start-column="113" selection-end-line="54" selection-end-column="113" />
+            <state relative-caret-position="684">
+              <caret line="101" column="12" selection-start-line="101" selection-start-column="12" selection-end-line="101" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -32,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestToyRobot/ToyRobot/MainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="95" column="4" selection-start-line="95" selection-start-column="4" selection-end-line="95" selection-end-column="4" />
+            <state relative-caret-position="333">
+              <caret line="282" column="80" selection-start-line="282" selection-start-column="80" selection-end-line="282" selection-end-column="80" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,19 +44,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CommandFiles/C4_InvalidReportCommand.txt">
+        <entry file="file://$PROJECT_DIR$/CommandFiles/C13_WestBorderCheck.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            <state relative-caret-position="18">
+              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ToyRobot/GameBoard.java">
+        <entry file="file://$PROJECT_DIR$/CommandFiles/C9_MultiplePlaceCommands.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
+            <state>
+              <caret selection-end-line="14" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CommandFiles/C5_FirstCommandNotPlace.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -102,6 +113,9 @@
         <option value="$PROJECT_DIR$/src/ToyRobot/GameBoard.java" />
         <option value="$PROJECT_DIR$/src/ToyRobot/Main.java" />
         <option value="$PROJECT_DIR$/CommandFiles/C4_InvalidReportCommand.txt" />
+        <option value="$PROJECT_DIR$/CommandFiles/C5_FirstCommandNotPlace.txt" />
+        <option value="$PROJECT_DIR$/CommandFiles/C11_SouthBorderCheck.txt" />
+        <option value="$PROJECT_DIR$/CommandFiles/C13_WestBorderCheck.txt" />
         <option value="$PROJECT_DIR$/TestToyRobot/ToyRobot/MainTest.java" />
       </list>
     </option>
@@ -168,7 +182,7 @@
     <property name="Repository.Attach.Sources" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546581902870" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546588459095" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -203,33 +217,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MainTest.testInvalidReportCommand">
+  <component name="RunManager" selected="JUnit.MainTest.testWestBorder">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
       <option name="MAIN_CLASS_NAME" value="ToyRobot.Main" />
       <module name="ToyRobot" />
-      <option name="PROGRAM_PARAMETERS" value="CommandFiles\C4_InvalidReportCommand.txt" />
+      <option name="PROGRAM_PARAMETERS" value="CommandFiles\C13_WestBorderCheck.txt" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameBoardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ToyRobot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ToyRobot.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ToyRobot" />
-      <option name="MAIN_CLASS_NAME" value="ToyRobot.GameBoardTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.testEastBorder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ToyRobot" />
       <extension name="coverage">
         <pattern>
@@ -239,27 +239,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ToyRobot" />
       <option name="MAIN_CLASS_NAME" value="ToyRobot.MainTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainTest.testInvalidMovementCommand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ToyRobot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ToyRobot.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ToyRobot" />
-      <option name="MAIN_CLASS_NAME" value="ToyRobot.MainTest" />
-      <option name="METHOD_NAME" value="testInvalidMovementCommand" />
+      <option name="METHOD_NAME" value="testEastBorder" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.testInvalidReportCommand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.testMultiplePlaceCommand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ToyRobot" />
       <extension name="coverage">
         <pattern>
@@ -269,13 +255,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ToyRobot" />
       <option name="MAIN_CLASS_NAME" value="ToyRobot.MainTest" />
-      <option name="METHOD_NAME" value="testInvalidReportCommand" />
+      <option name="METHOD_NAME" value="testMultiplePlaceCommand" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.testMainEmptyFileInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.testNorthBorder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ToyRobot" />
       <extension name="coverage">
         <pattern>
@@ -285,7 +271,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="ToyRobot" />
       <option name="MAIN_CLASS_NAME" value="ToyRobot.MainTest" />
-      <option name="METHOD_NAME" value="testMainEmptyFileInput" />
+      <option name="METHOD_NAME" value="testNorthBorder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.testSouthBorder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ToyRobot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ToyRobot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ToyRobot" />
+      <option name="MAIN_CLASS_NAME" value="ToyRobot.MainTest" />
+      <option name="METHOD_NAME" value="testSouthBorder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.testWestBorder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ToyRobot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ToyRobot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ToyRobot" />
+      <option name="MAIN_CLASS_NAME" value="ToyRobot.MainTest" />
+      <option name="METHOD_NAME" value="testWestBorder" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -293,19 +311,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.GameBoardTest" />
-      <item itemvalue="JUnit.MainTest.testMainEmptyFileInput" />
-      <item itemvalue="JUnit.MainTest" />
-      <item itemvalue="JUnit.MainTest.testInvalidMovementCommand" />
-      <item itemvalue="JUnit.MainTest.testInvalidReportCommand" />
+      <item itemvalue="JUnit.MainTest.testMultiplePlaceCommand" />
+      <item itemvalue="JUnit.MainTest.testNorthBorder" />
+      <item itemvalue="JUnit.MainTest.testSouthBorder" />
+      <item itemvalue="JUnit.MainTest.testEastBorder" />
+      <item itemvalue="JUnit.MainTest.testWestBorder" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainTest.testInvalidReportCommand" />
-        <item itemvalue="JUnit.MainTest.testInvalidMovementCommand" />
-        <item itemvalue="JUnit.MainTest" />
-        <item itemvalue="JUnit.MainTest.testMainEmptyFileInput" />
-        <item itemvalue="JUnit.GameBoardTest" />
+        <item itemvalue="JUnit.MainTest.testWestBorder" />
+        <item itemvalue="JUnit.MainTest.testEastBorder" />
+        <item itemvalue="JUnit.MainTest.testSouthBorder" />
+        <item itemvalue="JUnit.MainTest.testNorthBorder" />
+        <item itemvalue="JUnit.MainTest.testMultiplePlaceCommand" />
       </list>
     </recent_temporary>
   </component>
@@ -325,7 +343,7 @@
       <workItem from="1546061460046" duration="16959000" />
       <workItem from="1546233759053" duration="1945000" />
       <workItem from="1546237933643" duration="645000" />
-      <workItem from="1546404564813" duration="13161000" />
+      <workItem from="1546404564813" duration="15861000" />
     </task>
     <task id="LOCAL-00001" summary="Pushing:&#10; &#10;1. Main class&#10;2. Robot class">
       <created>1545986447970</created>
@@ -425,43 +443,50 @@
       <option name="project" value="LOCAL" />
       <updated>1546579471530</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Pushing:&#10; &#10;1. Added Tests for Main function till Invalid report command file">
+      <created>1546581984770</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1546581984770</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainTest - 2019.01.04 at 15h 21m 31s.xml">
-      <configuration name="MainTest" configurationId="JUnit" />
+    <history-entry file="MainTest_testMultiplePlaceCommand - 2019.01.04 at 18h 42m 19s.xml">
+      <configuration name="MainTest.testMultiplePlaceCommand" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest - 2019.01.04 at 15h 23m 10s.xml">
-      <configuration name="MainTest" configurationId="JUnit" />
+    <history-entry file="MainTest_testMultiplePlaceCommand - 2019.01.04 at 18h 42m 28s.xml">
+      <configuration name="MainTest.testMultiplePlaceCommand" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest - 2019.01.04 at 16h 43m 56s.xml">
-      <configuration name="MainTest" configurationId="JUnit" />
+    <history-entry file="MainTest_testMultiplePlaceCommand - 2019.01.04 at 18h 42m 37s.xml">
+      <configuration name="MainTest.testMultiplePlaceCommand" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_testInvalidMovementCommand - 2019.01.04 at 16h 45m 07s.xml">
-      <configuration name="MainTest.testInvalidMovementCommand" configurationId="JUnit" />
+    <history-entry file="MainTest_testMultiplePlaceCommand - 2019.01.04 at 18h 42m 55s.xml">
+      <configuration name="MainTest.testMultiplePlaceCommand" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_testInvalidMovementCommand - 2019.01.04 at 16h 45m 38s.xml">
-      <configuration name="MainTest.testInvalidMovementCommand" configurationId="JUnit" />
+    <history-entry file="MainTest_testNorthBorder - 2019.01.04 at 18h 45m 11s.xml">
+      <configuration name="MainTest.testNorthBorder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_testInvalidReportCommand - 2019.01.04 at 17h 00m 00s.xml">
-      <configuration name="MainTest.testInvalidReportCommand" configurationId="JUnit" />
+    <history-entry file="MainTest_testSouthBorder - 2019.01.04 at 18h 47m 47s.xml">
+      <configuration name="MainTest.testSouthBorder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_testInvalidReportCommand - 2019.01.04 at 17h 00m 37s.xml">
-      <configuration name="MainTest.testInvalidReportCommand" configurationId="JUnit" />
+    <history-entry file="MainTest_testEastBorder - 2019.01.04 at 18h 51m 31s.xml">
+      <configuration name="MainTest.testEastBorder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_testInvalidReportCommand - 2019.01.04 at 17h 02m 10s.xml">
-      <configuration name="MainTest.testInvalidReportCommand" configurationId="JUnit" />
+    <history-entry file="MainTest_testWestBorder - 2019.01.04 at 18h 52m 14s.xml">
+      <configuration name="MainTest.testWestBorder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_testInvalidReportCommand - 2019.01.04 at 17h 03m 29s.xml">
-      <configuration name="MainTest.testInvalidReportCommand" configurationId="JUnit" />
+    <history-entry file="MainTest_testWestBorder - 2019.01.04 at 18h 53m 22s.xml">
+      <configuration name="MainTest.testWestBorder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_testInvalidReportCommand - 2019.01.04 at 17h 04m 19s.xml">
-      <configuration name="MainTest.testInvalidReportCommand" configurationId="JUnit" />
+    <history-entry file="MainTest_testWestBorder - 2019.01.04 at 18h 53m 37s.xml">
+      <configuration name="MainTest.testWestBorder" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47527000" />
+    <option name="totallyTimeSpent" value="50227000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -514,7 +539,8 @@
     <MESSAGE value="Pushing:&#10; &#10;1. Add standard input funcationality in main to read file path." />
     <MESSAGE value="Pushing:&#10; &#10;1. Added functionality of accepting arguments from command line line(args).&#10;2. Removed standard input" />
     <MESSAGE value="Pushing:&#10; &#10;1. Added Tests for Main function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pushing:&#10; &#10;1. Added Tests for Main function" />
+    <MESSAGE value="Pushing:&#10; &#10;1. Added Tests for Main function till Invalid report command file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pushing:&#10; &#10;1. Added Tests for Main function till Invalid report command file" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/description.html">
@@ -603,48 +629,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CommandFiles/C6_LeftRotateCommand.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CommandFiles/C9_MultiplePlaceCommands.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="14" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CommandFiles/C10_NorthBorderCheck.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CommandFiles/C7_RightRotateCommand.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CommandFiles/C11_SouthBorderCheck.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CommandFiles/C13_WestBorderCheck.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CommandFiles/C8_ValidComboCommands.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" selection-start-line="2" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -673,13 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CommandFiles/C5_FirstCommandNotPlace.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ToyRobot/GameBoard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
@@ -701,13 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ToyRobot/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="54" column="113" selection-start-line="54" selection-start-column="113" selection-end-line="54" selection-end-column="113" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CommandFiles/C3_InvalidMovementCommands.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -722,10 +696,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CommandFiles/C5_FirstCommandNotPlace.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommandFiles/C6_LeftRotateCommand.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommandFiles/C7_RightRotateCommand.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommandFiles/C8_ValidComboCommands.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommandFiles/C9_MultiplePlaceCommands.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommandFiles/C11_SouthBorderCheck.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommandFiles/C13_WestBorderCheck.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ToyRobot/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="101" column="12" selection-start-line="101" selection-start-column="12" selection-end-line="101" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TestToyRobot/ToyRobot/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="95" column="4" selection-start-line="95" selection-start-column="4" selection-end-line="95" selection-end-column="4" />
+        <state relative-caret-position="333">
+          <caret line="282" column="80" selection-start-line="282" selection-start-column="80" selection-end-line="282" selection-end-column="80" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
