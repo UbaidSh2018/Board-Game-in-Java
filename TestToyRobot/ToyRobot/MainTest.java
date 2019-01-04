@@ -284,4 +284,48 @@ public class MainTest {
 
     }
 
+    @Test
+    public void testMultipleArgumentsPassed() throws IOException{
+
+        String[] args = {"CommandFiles/C13_WestBorderCheck.txt" , "CommandFiles/C13_EastBorderCheck.txt"};
+        String output;
+
+        try (ByteArrayOutputStream bOutput = new ByteArrayOutputStream()) {
+            System.setOut(new PrintStream(bOutput));
+            bOutput.flush();
+            Main.main(args);
+            output = bOutput.toString();
+        }
+
+        String newLine = System.getProperty("line.separator");
+        String[] breakDownOutput = output.split(newLine);
+
+        assertEquals(2, breakDownOutput.length);
+        assertEquals("You've reached Western Border : Can't go beyond this point", breakDownOutput[0]);
+        assertEquals("Output:(X, Y , Direction)= (2,0,NORTH)", breakDownOutput[1]);
+    }
+
+
+    @Test
+    public void testRobotOutOfBoard() throws IOException{
+
+        String[] args = {"CommandFiles/C14_RobotOutofBoard.txt"};
+        String output;
+
+        try (ByteArrayOutputStream bOutput = new ByteArrayOutputStream()) {
+            System.setOut(new PrintStream(bOutput));
+            bOutput.flush();
+            Main.main(args);
+            output = bOutput.toString();
+        }
+
+        String newLine = System.getProperty("line.separator");
+        String[] breakDownOutput = output.split(newLine);
+
+        assertEquals(1, breakDownOutput.length);
+        assertEquals("CommandFiles/C14_RobotOutofBoard.txt is an Invalid Command File", breakDownOutput[0]);
+
+    }
+
+
 }
