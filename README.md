@@ -11,7 +11,7 @@ To execute the program follow the steps:
 >cd ToyRobot\Production
 ``````
 
-2. Run the Following Command to execute jar and pass Command files as argument from CommandFiles directory.
+2. Run the Following Command to execute jar and pass any command file as an argument from CommandFiles directory.
 
 ````
 ToyRobot\Production>Java -jar ToyRobot.jar ../CommandFiles/C8_ValidComboCommands.txt
