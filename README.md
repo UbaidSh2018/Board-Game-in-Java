@@ -8,13 +8,13 @@ To execute the program follow the steps:
 1. Navigate to the following directory inside the project:
 
 ``````
->cd ToyRobot\out\artifacts\ToyRobot_jar
+>cd ToyRobot\Production
 ``````
 
 2. Run the Following Command to execute jar and pass Command files as argument from CommandFiles directory.
 
 ````
-ToyRobot\out\artifacts\ToyRobot_jar>Java -jar ToyRobot.jar ../../../CommandFiles/C8_ValidComboCommands.txt
+ToyRobot\Production>Java -jar ToyRobot.jar ../CommandFiles/C8_ValidComboCommands.txt
 ````
 _____________
 

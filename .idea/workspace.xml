@@ -11,7 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="da387164-5ea7-4a39-925a-722e1f4ca500" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/ToyRobot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/ToyRobotClassDiagram.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -39,8 +38,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="288">
-                <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+              <first_editor relative-caret-position="234">
+                <caret line="16" column="84" selection-start-line="16" selection-start-column="84" selection-end-line="16" selection-end-column="84" />
               </first_editor>
               <second_editor />
             </state>
@@ -94,11 +93,11 @@
         <option value="$PROJECT_DIR$/src/ToyRobot/Direction.java" />
         <option value="$PROJECT_DIR$/TestToyRobot/ToyRobot/RunAllTests.java" />
         <option value="$PROJECT_DIR$/src/ToyRobotInterface/ToyRobotInterface.java" />
-        <option value="$PROJECT_DIR$/src/ToyRobot/Main.java" />
         <option value="$PROJECT_DIR$/src/ToyRobotInterface/RobotInterface.java" />
         <option value="$PROJECT_DIR$/src/ToyRobotInterface/GameBoardInterface.java" />
         <option value="$PROJECT_DIR$/src/ToyRobot/GameBoard.java" />
         <option value="$PROJECT_DIR$/src/ToyRobot/Robot.java" />
+        <option value="$PROJECT_DIR$/src/ToyRobot/Main.java" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -128,11 +127,6 @@
               <item name="ToyRobot" type="b2602c69:ProjectViewProjectNode" />
               <item name="ToyRobot" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ToyRobot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ToyRobot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -148,7 +142,7 @@
     <property name="Repository.Attach.Sources" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546758280752" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546759307260" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/out/artifacts/ToyRobot_jar/ToyRobot.jar" />
@@ -166,6 +160,7 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ubaid\IntelliJ Workspace\ToyRobot\Production" />
       <recent name="C:\Users\ubaid\IntelliJ Workspace\ToyRobot\Docs" />
       <recent name="C:\Users\ubaid\IntelliJ Workspace\ToyRobot\CommandFiles" />
       <recent name="C:\Users\ubaid\IntelliJ Workspace\ToyRobot\src\ToyRobot" />
@@ -183,7 +178,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JAR Application.ToyRobot Jar Config">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
       <option name="MAIN_CLASS_NAME" value="ToyRobot.Main" />
@@ -261,20 +256,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToyRobot Jar Config" type="JarApplication" factoryName="JAR Application">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/ToyRobot_jar/ToyRobot.jar" />
-      <option name="PROGRAM_PARAMETERS" value="CommandFiles\C14_RobotOutofBoard.txt" />
-      <option name="WORKING_DIRECTORY" value="C:\Users\ubaid\IntelliJ Workspace\ToyRobot" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="ToyRobot:jar" />
-        </option>
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JAR Application.ToyRobot Jar Config" />
       <item itemvalue="JUnit.MainTest" />
       <item itemvalue="JUnit.RunAllTests" />
       <item itemvalue="JUnit.GameBoardTest" />
@@ -307,7 +290,7 @@
       <workItem from="1546061460046" duration="16959000" />
       <workItem from="1546233759053" duration="1945000" />
       <workItem from="1546237933643" duration="645000" />
-      <workItem from="1546404564813" duration="36841000" />
+      <workItem from="1546404564813" duration="37901000" />
     </task>
     <task id="LOCAL-00001" summary="Pushing:&#10; &#10;1. Main class&#10;2. Robot class">
       <created>1545986447970</created>
@@ -456,7 +439,14 @@
       <option name="project" value="LOCAL" />
       <updated>1546757324723</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Pushing:&#10; &#10;1. Edited readme.md">
+      <created>1546758424754</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1546758424754</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -492,7 +482,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71207000" />
+    <option name="totallyTimeSpent" value="72267000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -876,13 +866,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ToyRobot/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="65" column="63" lean-forward="true" selection-start-line="65" selection-start-column="63" selection-end-line="65" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ToyRobot/GameBoard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
@@ -939,11 +922,18 @@
     <entry file="file://$PROJECT_DIR$/CommandFiles/C14_RobotOutofBoard.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ToyRobot/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="288">
-            <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+          <first_editor relative-caret-position="234">
+            <caret line="16" column="84" selection-start-line="16" selection-start-column="84" selection-end-line="16" selection-end-column="84" />
           </first_editor>
           <second_editor />
         </state>
