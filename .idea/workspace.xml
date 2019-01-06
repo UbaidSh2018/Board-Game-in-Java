@@ -11,6 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="da387164-5ea7-4a39-925a-722e1f4ca500" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/ToyRobot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/ToyRobotClassDiagram.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -38,8 +39,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="306">
-                <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <first_editor relative-caret-position="288">
+                <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
               </first_editor>
               <second_editor />
             </state>
@@ -130,20 +131,7 @@
             <path>
               <item name="ToyRobot" type="b2602c69:ProjectViewProjectNode" />
               <item name="ToyRobot" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ToyRobot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ToyRobot" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ToyRobot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ToyRobot" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="ToyRobot_jar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -160,7 +148,7 @@
     <property name="Repository.Attach.Sources" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546757236404" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546758280752" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/out/artifacts/ToyRobot_jar/ToyRobot.jar" />
@@ -319,7 +307,7 @@
       <workItem from="1546061460046" duration="16959000" />
       <workItem from="1546233759053" duration="1945000" />
       <workItem from="1546237933643" duration="645000" />
-      <workItem from="1546404564813" duration="35828000" />
+      <workItem from="1546404564813" duration="36841000" />
     </task>
     <task id="LOCAL-00001" summary="Pushing:&#10; &#10;1. Main class&#10;2. Robot class">
       <created>1545986447970</created>
@@ -461,7 +449,14 @@
       <option name="project" value="LOCAL" />
       <updated>1546751540635</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Pushing:&#10; &#10;1. Edited readme.md">
+      <created>1546757324722</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1546757324723</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -497,7 +492,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70194000" />
+    <option name="totallyTimeSpent" value="71207000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -590,7 +585,8 @@
     <MESSAGE value="Pushing:&#10; &#10;1. Added Test Suite class" />
     <MESSAGE value="Pushing:&#10; &#10;1. Filereader closed" />
     <MESSAGE value="Pushing:&#10; &#10;1. Added class diagram uml&#10;2. Added interface &#10;3. Added Comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pushing:&#10; &#10;1. Added class diagram uml&#10;2. Added interface &#10;3. Added Comments" />
+    <MESSAGE value="Pushing:&#10; &#10;1. Edited readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pushing:&#10; &#10;1. Edited readme.md" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -788,7 +784,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Docs/ToyRobot.png">
+    <entry file="file://$PROJECT_DIR$/Docs/ToyRobotClassDiagram.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="uml://JAVA/">
@@ -946,8 +942,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="306">
-            <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <first_editor relative-caret-position="288">
+            <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
           </first_editor>
           <second_editor />
         </state>

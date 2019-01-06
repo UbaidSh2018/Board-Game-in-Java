@@ -1,6 +1,7 @@
 # ToyRobot
 
-The program operates by receiving input from a file.
+This is a Java Command line application of ToyRobot game.
+The application operates by reading input from a file.
 
 To execute the program follow the steps:
 
@@ -10,11 +11,19 @@ To execute the program follow the steps:
 >cd ToyRobot\out\artifacts\ToyRobot_jar
 ``````
 
-2. Run the Following Command to execute jar and pass Test files as argument from CommandFiles directory.
+2. Run the Following Command to execute jar and pass Command files as argument from CommandFiles directory.
 
 ````
 ToyRobot\out\artifacts\ToyRobot_jar>Java -jar ToyRobot.jar ../../../CommandFiles/C8_ValidComboCommands.txt
 ````
+_____________
+
+
+Notes:
+-----------
+1. Class diagram is located inside Docs folder.
+2. jar location : out\artifacts\ToyRobot_jar
+3. Command Files location : ToyRobot\CommandFiles
 
 
 Description:
