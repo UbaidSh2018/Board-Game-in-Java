@@ -2,8 +2,19 @@
 
 The program operates by receiving input from a file.
 
-To execute the program run following commands:
+To execute the program follow the steps:
 
+1. Navigate to the following directory inside the project:
+
+``````
+>cd ToyRobot\out\artifacts\ToyRobot_jar
+``````
+
+2. Run the Following Command to execute jar and pass Test files as argument from CommandFiles directory.
+
+````
+ToyRobot\out\artifacts\ToyRobot_jar>Java -jar ToyRobot.jar ../../../CommandFiles/C8_ValidComboCommands.txt
+````
 
 
 Description:
