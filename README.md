@@ -22,7 +22,7 @@ _____________
 Notes:
 -----------
 1. Class diagram is located inside Docs folder.
-2. jar location : out\artifacts\ToyRobot_jar
+2. jar location : ToyRobot\Production
 3. Command Files location : ToyRobot\CommandFiles
 
 
