@@ -4,19 +4,14 @@ import java.io.*;
 
 public class Main {
 
-    public static int BOARD_HEIGHT = 4;
-    public static int BOARD_WIDTH = 4;
+    private static int BOARD_HEIGHT = 4;
+    private static int BOARD_WIDTH = 4;
 
     public static void main(String[] args) {
 
         GameBoard board = new GameBoard(BOARD_HEIGHT, BOARD_WIDTH);
         Robot robot = null;
         File file;
-
-   /*   Scanner sc = new Scanner(System.in);
-        System.out.println("Enter File Name: ");
-        String filePassed = sc.nextLine();
-        File file = new File(filePassed);*/
 
         if (0 < args.length) {
             file = new File(args[0]);
@@ -91,12 +86,10 @@ public class Main {
 
                     } catch (IOException e) {
                         System.out.println("IO Exception Thrown");
-                        e.printStackTrace();
                     }
 
                 } catch (FileNotFoundException e) {
                     System.out.println(args[0] + " File Not Found Exception Thrown");
-                    e.printStackTrace();
 
                 }
 
@@ -106,7 +99,7 @@ public class Main {
 
         } else {
             System.err.println("No arguments passed. Please Pass one argument");
-            System.exit(1);
+
         }
     }
 }

@@ -1,20 +1,26 @@
 package ToyRobot;
 
-public class Robot {
+import ToyRobotInterface.RobotInterface;
+
+/**
+ * This Class defines Toy Robot and it's navigation commands.
+ */
+public class Robot implements RobotInterface {
 
 
     private int X;
     private int Y;
-    Direction direction;
-    GameBoard gameBoard;
+    private Direction direction;
+    private GameBoard gameBoard;
 
     /**
      * Instantiate Robot with position and Direction parameters.
-     * @param x
-     * @param y
-     * @param dir
+     *
+     * @param x   Position along X
+     * @param y   Position along Y
+     * @param dir Direction of Robot
      */
-    public Robot(int x, int y, Direction dir) {
+    Robot(int x, int y, Direction dir) {
         X = x;
         Y = y;
         direction = dir;
@@ -23,27 +29,18 @@ public class Robot {
 
     /**
      * Initiate board
-     * @param board
+     *
+     * @param board Board instance to pass
      */
-    public void loadBoard(GameBoard board) {
+    void loadBoard(GameBoard board) {
         gameBoard = board;
     }
 
-    /**
-     *  Place the Robot on the Board with position and Direction parameters.
-     * @param x
-     * @param y
-     * @param dir
-     */
-    public void place(int x, int y, Direction dir) {
-        X = x;
-        Y = y;
-        direction = dir;
-    }
 
     /**
      * Move command to increment X or Y co-ordinates until boundary along NSWE is reached.
      */
+    @Override
     public void move() {
 
         switch (direction) {
@@ -76,6 +73,7 @@ public class Robot {
     /**
      * Rotate Robot Direction to Left. This function checks the existing direction and switches it accordingly
      */
+    @Override
     public void rotateLeft() {
 
         switch (direction) {
@@ -102,6 +100,7 @@ public class Robot {
     /**
      * Rotate Robot Direction to Right. This function checks the existing direction and switches it accordingly
      */
+    @Override
     public void rotateRight() {
         switch (direction) {
 
@@ -126,12 +125,16 @@ public class Robot {
 
     /**
      * This function returns current position of Robot on the board.
-     * @return
+     *
+     * @return Position of Robot
      */
+    @Override
     public String report() {
 
-        String reportPosition = "Output:(X, Y , Direction)= " + "(" + X + "," + Y + "," + direction + ")";
-        return reportPosition;
+        String reportPosition;
+
+        return reportPosition = "Output:(X, Y , Direction)= " + "(" + X + "," + Y + "," + direction + ")";
+
 
     }
 
