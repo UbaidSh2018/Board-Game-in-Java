@@ -1,22 +1,7 @@
-# ToyRobot
+# Board Game in Java
 
-This is a Java Command line application of ToyRobot game.
+This is a Java Command line application of a Board game in Java.
 The application operates by reading input from a file.
-
-To execute the program follow the steps:
-
-1. Navigate to the following directory inside the project:
-
-``````
->cd ToyRobot\Production
-``````
-
-2. Run the Following Command to execute jar and pass any command file as an argument from CommandFiles directory.
-
-````
-ToyRobot\Production>Java -jar ToyRobot.jar ../CommandFiles/C8_ValidComboCommands.txt
-````
-_____________
 
 
 Notes:
